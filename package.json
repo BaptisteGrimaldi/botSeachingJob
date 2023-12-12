@@ -4,5 +4,10 @@
   },
   "dependencies": {
     "puppeteer": "^21.6.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/main.js"
   }
+
 }
